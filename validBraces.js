@@ -25,6 +25,3 @@ console.log(validBraces("({})[({})]"), "should be true")
 console.log(validBraces("[(])"), "should be false")
 console.log(validBraces("[()]"), "should be true")
 console.log(validBraces("[[(((])))]"), "should be false")
-
-
-console.log(validBraces("(sdfs{})df[ff({ff})]"), "should be true")
